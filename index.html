@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CYBER PONG</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<div id="winscreen">
+        <div id="wintext">Finally! We've hacked through and they're down. Now the only thing left to do is to clear out the guards at the server room so they can't reboot the System. Great Work!
+        </div>
+</div>
+    <div id="startscreen">
+        <div onclick="play()" id="start">Play</div>
+        <div id="introtext">"Hey. Glad you could make it. Here, scan this code and download it into your AR UI. Its Mili-tech, it should run compatible with your system. Don't ask me how i got my hands on this. Lets just say that i had to deal with a couple of questionable VR junkies. Back to the point. We've got a new job. Arasaka is paying us good money to breakdown Maelstrom's power supply fraud scheme. Tell me when you're ready."</div>
+    </div>
+    <div id="overlay"><div id="text">"I'm gonna assume you didn't make it past the firewall judging by the 45's pointed straight for my Cerebral Cortex Nanos. You gotta be more careful next time. They'll easily detect any unauthorized intrusions if you use up all your hacking nodes ."</div></div>
+    <h1>CYBERPONG 2077</h1>
+    <h1 id="winLose"> </h1>
+    <canvas id="myCanvas" width="900" height="600px"></canvas>
+
+    <img class="v" src="profile.png">
+    <div>
+        <h2 id="nametag" onclick="speed()">CLICK HERE TO INCREASE SPEED *AT YOUR OWN RISK*</h2>
+        <p>"The Maelstrom Corp has been working on a global power grid for the past couple of years. However, in typical Capitalist fashion, they've got a hidden agenda on their hands. The design pulls electricity from all of Night City's public power supply and they plan to redistribute that energy as "clean energy". I've managed to gain remote access from a mili-tech network to hack into their mainframe."
+
+        <h2>"Now I need you to run this debugger in their code to disable their supply lines."
+        <h2 class="impt">OBJECTIVE: Destroy the Grid to Enable the Debugger!
+        Use LEFT and RIGHT arrow keys to control the Platform!</h2>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
